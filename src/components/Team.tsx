@@ -14,31 +14,31 @@ interface Doctor {
 const Team: React.FC = () => {
   const doctors: Doctor[] = [
     {
-      name: "Dr. Carlos Eduardo Silva",
+      name: "Dra. Vanessa Morais",
       specialty: "Otorrinolaringologista",
-      credentials: "CRM-BA 12345",
+      credentials: "CRM-BA 12345 | RQE 12345",
       experience: "15 anos de experiência",
       education: [
         "Medicina pela UFBA",
         "Residência em Otorrinolaringologia - USP",
         "Especialização em Cirurgia Endoscópica"
       ],
-      image: "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "https://res.cloudinary.com/dg7yrvjwu/image/upload/ar_1:1,c_crop,g_north,w_1080/c_crop,g_auto:face,h_0.68,w_0.68/Vanessa_19_gfqvzp.jpg",
       description: "Especialista em cirurgias minimamente invasivas e tratamentos avançados para distúrbios do sono."
     },
     {
-      name: "Dra. Maria Fernanda Costa",
-      specialty: "Psicóloga Clínica",
-      credentials: "CRP-BA 06/7890",
-      experience: "12 anos de experiência",
-      education: [
-        "Psicologia pela UCSAL",
-        "Mestrado em Psicologia Clínica",
-        "Especialização em Terapia Cognitivo-Comportamental"
-      ],
-      image: "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      description: "Especialista em transtornos de ansiedade, depressão e terapia de casal com abordagem humanizada."
-    }
+  name: "Dra. Angelica Santos",
+  specialty: "Nutricionista",
+  credentials: "CRN-5 12345",
+  experience: "12 anos de experiência",
+  education: [
+    "Nutrição pela UCSAL",
+    "Pós-graduação em Nutrição Clínica",
+    "Especialização em Emagrecimento e Bem-Estar"
+  ],
+  image: "https://res.cloudinary.com/dg7yrvjwu/image/upload/v1758892868/Captura_de_tela_2025-09-26_101930_y9cg2x.png",
+  description: "Nutricionista especializada em nutrição clínica e emagrecimento saudável, com abordagem individualizada para promover qualidade de vida e bem-estar."
+}
   ];
 
   return (
@@ -104,7 +104,7 @@ const Team: React.FC = () => {
                   rel="noopener noreferrer"
                   className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-cyan-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 >
-                  Agendar com {doctor.name.split(' ')[0]}
+                  Agendar com {doctor.name.split(' ')[1]}
                 </a>
               </div>
             </div>

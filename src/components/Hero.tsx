@@ -53,9 +53,9 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop"
+                src="https://res.cloudinary.com/dg7yrvjwu/image/upload/v1758892108/Vanessa_13_r8cs7j_c938fc.jpg"
                 alt="Profissional da saúde"
-                className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
+                className="w-full h-full object-cover rounded-2xl shadow-2xl"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-full h-full bg-gradient-to-r from-blue-100 to-cyan-100 rounded-2xl -z-10"></div>

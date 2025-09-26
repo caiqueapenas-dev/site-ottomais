@@ -21,27 +21,26 @@ const Header: React.FC = () => {
     setIsMenuOpen(false);
   };
 
-  return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
-      }`}
-    >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          <div className="flex items-center">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">O</span>
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                  Ottomais
-                </h1>
-                <p className="text-xs text-gray-500">Clínica Médica</p>
-              </div>
-            </div>
-          </div>
+return ( 
+  <header 
+    className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
+    }`}
+  >
+    <div className="container mx-auto px-4">
+      <div className="flex items-center justify-between h-20">
+        <div className="flex items-center">
+          {/* === LOGO === */}
+          <img
+            src="https://res.cloudinary.com/dg7yrvjwu/image/upload/v1758891844/preto_s%C3%B3lido_-_ottomais_-_logo_qfpmxi.jpg"
+            alt="Logo Ottomais"
+            className="h-12 w-auto"   // ajuste o h-12 para maior/menor conforme o layout
+          />
+        </div>
+
+        
+
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">

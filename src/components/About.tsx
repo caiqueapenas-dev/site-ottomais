@@ -61,7 +61,7 @@ const About: React.FC = () => {
           
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/4386476/pexels-photo-4386476.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+              src="https://res.cloudinary.com/dg7yrvjwu/image/upload/v1758891098/cl%C3%ADnica_5_zlklxf.webp"
               alt="Interior da clínica"
               className="w-full h-[400px] object-cover rounded-xl shadow-lg"
             />
