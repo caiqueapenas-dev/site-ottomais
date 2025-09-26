@@ -275,7 +275,7 @@ const Contact: React.FC = () => {
             </h3>
             <div className="relative h-64 md:h-80 rounded-xl overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15731.063751703!2d-38.4123456!3d-12.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDA3JzI0LjQiUyAzOMKwMjQnNDQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d62409.17706150724!2d-38.46020693689498!3d-12.141302741553414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x716bd8f4d464393%3A0x5ac3b80134cd8844!2sRua%20Marcela%20Boiron%2C%20236%20-%20Centro%2C%20Alagoinhas%20-%20BA%2C%2048000-051!3m2!1d-12.1413897!2d-38.4190073!5e0!3m2!1spt-BR!2sbr!4v1758894048176!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

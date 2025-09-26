@@ -19,18 +19,19 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">O</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">Ottomais</h3>
-                <p className="text-xs text-gray-400">Clínica Médica</p>
-              </div>
+              {/* Logo da Ottomais */}
+              <img
+                src="https://res.cloudinary.com/dg7yrvjwu/image/upload/v1758894286/branco_-_ottomais_-_logo_mv6e4f.png"
+                alt="Ottomais Logo"
+                className="w-32 h-auto"
+              />
             </div>
+
             <p className="text-gray-400 leading-relaxed">
               Cuidando da sua saúde com excelência, humanização e tecnologia
               moderna. Sua confiança é nossa maior conquista.
             </p>
+
             <div className="flex space-x-4">
               <a
                 href="#"
@@ -177,8 +178,8 @@ const Footer: React.FC = () => {
 
           <div className="mt-4 text-center">
             <p className="text-xs text-gray-500">
-              CRM-BA 12345 • CRP-BA 06/7890 • Responsável Técnico: Dr. Carlos
-              Eduardo Silva
+              CRM-BA 12345 • CRP-BA 06/7890 • Responsável Técnico: Dra. Vanessa
+              Morais
             </p>
           </div>
         </div>
