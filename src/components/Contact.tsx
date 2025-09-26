@@ -128,37 +128,6 @@ const Contact: React.FC = () => {
                 </a>
               </div>
             </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow-lg">
-              <h4 className="text-lg font-semibold text-gray-900 mb-4">
-                Convênios Aceitos
-              </h4>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <span className="text-sm text-gray-700 font-medium">
-                    Unimed
-                  </span>
-                </div>
-                <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <span className="text-sm text-gray-700 font-medium">
-                    Bradesco Saúde
-                  </span>
-                </div>
-                <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <span className="text-sm text-gray-700 font-medium">
-                    SulAmérica
-                  </span>
-                </div>
-                <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <span className="text-sm text-gray-700 font-medium">
-                    Amil
-                  </span>
-                </div>
-              </div>
-              <p className="text-sm text-gray-500 mt-4 text-center">
-                E muitos outros convênios. Consulte-nos!
-              </p>
-            </div>
           </div>
 
           {/* Contact Form */}

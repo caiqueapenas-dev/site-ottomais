@@ -1,21 +1,29 @@
-import React from 'react';
-import { MessageCircle, Calendar, Shield } from 'lucide-react';
+import React from "react";
+import { MessageCircle, Calendar, Shield } from "lucide-react";
+import Partners from "./Partners";
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="pt-20 bg-gradient-to-br from-blue-50 via-white to-cyan-50 min-h-screen flex items-center">
+    <section
+      id="home"
+      className="pt-20 bg-gradient-to-br from-blue-50 via-white to-cyan-50 min-h-screen flex items-center"
+    >
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 animate-fade-in-up">
+          <div className="space-y-8 animate-fade-in-up min-w-0">
             <div className="space-y-4">
+              <Partners />
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 <span className="text-gray-900">Cuidado médico de</span>
                 <br />
-                <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">excelência</span>
+                <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
+                  excelência
+                </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Na Ottomais, oferecemos atendimento humanizado e especializado em otorrinolaringologia 
-                e psicologia, priorizando seu bem-estar e saúde.
+                Na Ottomais, oferecemos atendimento humanizado e especializado
+                em otorrinolaringologia e psicologia, priorizando seu bem-estar
+                e saúde.
               </p>
             </div>
 
@@ -29,9 +37,13 @@ const Hero: React.FC = () => {
                 <MessageCircle size={20} />
                 <span>Agendar via WhatsApp</span>
               </a>
-              
-              <button 
-                onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
+
+              <button
+                onClick={() =>
+                  document
+                    .getElementById("servicos")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
                 className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300"
               >
                 Nossos Serviços
@@ -52,7 +64,7 @@ const Hero: React.FC = () => {
 
           <div className="relative">
             <div className="relative z-10">
-              <img 
+              <img
                 src="https://res.cloudinary.com/dg7yrvjwu/image/upload/v1758892108/Vanessa_13_r8cs7j_c938fc.jpg"
                 alt="Profissional da saúde"
                 className="w-full h-full object-cover rounded-2xl shadow-2xl"
